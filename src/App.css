@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopping-card {
+    justify-content: space-between;
+    background-color: #61dafb;
+    padding: 20px 30px;
+}
+
+.product-item {
+    padding: 20px;
+}
+
+.cartCon,
+.total {
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.total {
+    background-color: #4f4f4f;
+    color: #acacac;
+}
