@@ -55,4 +55,4 @@ your localhost runs on 'http://localhost:5173/'.
 
 <br>
 
-Now you are Ready to go. 🚀
+Now you are Ready to go.  🚀
