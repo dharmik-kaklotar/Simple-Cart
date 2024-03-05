@@ -3,7 +3,7 @@ import React, { useState,useEffect } from "react";
 const Cart = ({ items }) => {
   const [total, setTotal] = useState(0);
 
-  // Calculate total outside the render function
+  // Calculate total outside the render function.
   const calculateTotal = () => {
     if (items && items.length > 0) {
       const newTotal = items.reduce((acc, item) => acc + item.price, 0);
@@ -15,7 +15,7 @@ const Cart = ({ items }) => {
 
   useEffect(() => {
     calculateTotal();
-  }, [items]); // Recalculate total whenever items change
+  }, [items]); // Recalculate total whenever items change.
 
   return (
     <>
