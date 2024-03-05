@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const List = ({ products, addToCartHandler }) => {
   
   return (
@@ -30,4 +29,4 @@ const List = ({ products, addToCartHandler }) => {
   );
 };
 
-export default List
+export default List;
